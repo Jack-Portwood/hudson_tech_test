@@ -39,13 +39,13 @@ request("https://dev-test.hudsonstaging.co.uk/", (error, response, html) => {
 
         //crates second object containing product name removes white space. 
         webPage(".product-tile").each((index, element)=> {
-            const productName = webPage(element)
+            const product = webPage(element)
             .find(".product-name")
             .text()
             .trim();
 
             //overwrites products array passing both pardouctName object and metadata object 
-            products[index] = {productName, metadata};
+            products[index] = {product, metadata};
 
         });
         //converts data to Json file
