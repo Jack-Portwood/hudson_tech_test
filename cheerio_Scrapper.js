@@ -3,7 +3,7 @@ const cheerio = require ("cheerio");
 const jsonfile = require ("jsonfile");
 
 //request to webPage will error handling, html set as variable
-request("https://dev-test.hudsonstaging.co.uk/"), (error, response, html) => {
+request("https://dev-test.hudsonstaging.co.uk/", (error, response, html) => {
     if(!error && response.statusCode === 200){
         const webPage = cheerio.load(html);
 
@@ -17,26 +17,40 @@ request("https://dev-test.hudsonstaging.co.uk/"), (error, response, html) => {
 
           //gets quatiaty data removes extra letters/ whitespace and converts string to Int
           let qauntity = webPage(element)
-            .find(".detials p")
+            .find(".details p")
             .first()
             .text()
             .trim()
             .slice(10);
-          qauntity = parseInt(qauntity);
+            qauntity = parseInt(qauntity);
 
           //gets price data removes extra letters/ whitespace and converts string to Int
           let price = webPage(element)
-            .find(".detials p")
+            .find(".details p")
             .last()
             .text()
             .trim()
             .slice(8);
-          price = parseInt(price);
+            price = parseInt(price);
 
           //pushes items it array as metadata object
           products[index] = metadata = { img_url, qauntity, price };
-        })
+        });
+
+        //crates second object containing product name removes white space. 
+        webPage(".product-tile").each((index, element)=> {
+            const productName = webPage(element)
+            .find(".product-name")
+            .text()
+            .trim();
+
+            //overwrites products array passing both pardouctName object and metadata object 
+            products[index] = {productName, metadata};
+
+        });
+        //converts data to Json file
+        jsonfile.writeFile("data.json", products)
 
 
     }
-};
+});
