@@ -1,6 +1,6 @@
 [
   {
-    "productName": "Jam",
+    "product": "Jam",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -8,7 +8,7 @@
     }
   },
   {
-    "productName": "Cheese",
+    "product": "Cheese",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -16,7 +16,7 @@
     }
   },
   {
-    "productName": "Milk",
+    "product": "Milk",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -24,7 +24,7 @@
     }
   },
   {
-    "productName": "Bread",
+    "product": "Bread",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -32,7 +32,7 @@
     }
   },
   {
-    "productName": "Free Range Eggs",
+    "product": "Free Range Eggs",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -40,7 +40,7 @@
     }
   },
   {
-    "productName": "Apples",
+    "product": "Apples",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -48,7 +48,7 @@
     }
   },
   {
-    "productName": "Oranges",
+    "product": "Oranges",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -56,7 +56,7 @@
     }
   },
   {
-    "productName": "Butter",
+    "product": "Butter",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -64,7 +64,7 @@
     }
   },
   {
-    "productName": "Flour",
+    "product": "Flour",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -72,7 +72,7 @@
     }
   },
   {
-    "productName": "Custard",
+    "product": "Custard",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -80,7 +80,7 @@
     }
   },
   {
-    "productName": "Jam",
+    "product": "Jam",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -88,7 +88,7 @@
     }
   },
   {
-    "productName": "Fish",
+    "product": "Fish",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -96,7 +96,7 @@
     }
   },
   {
-    "productName": "Yoghurt",
+    "product": "Yoghurt",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -104,7 +104,7 @@
     }
   },
   {
-    "productName": "Pie",
+    "product": "Pie",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -112,7 +112,7 @@
     }
   },
   {
-    "productName": "Bottled Water",
+    "product": "Bottled Water",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -120,7 +120,7 @@
     }
   },
   {
-    "productName": "Pizza",
+    "product": "Pizza",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -128,7 +128,7 @@
     }
   },
   {
-    "productName": "Ice Cubes",
+    "product": "Ice Cubes",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -136,7 +136,7 @@
     }
   },
   {
-    "productName": "Tea",
+    "product": "Tea",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
@@ -144,7 +144,7 @@
     }
   },
   {
-    "productName": "Coffee",
+    "product": "Coffee",
     "metadata": {
       "img_url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmX16ZYT0_zVdA_xEk-dYpqHsp0YeCpg30IZnsjLk_AoqOi1Od0A3hvyfLLIwIwJkkMcJn7OJP&usqp=CAc",
       "qauntity": 10,
