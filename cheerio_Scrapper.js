@@ -24,24 +24,29 @@ request("https://dev-test.hudsonstaging.co.uk/", (error, response, html) => {
         .first()
         .text()
         .trim()
-        .slice(10)
-        quantity = parseInt(quantity);
+        .slice(10);
 
-      //gets price data removes extra letters/ whitespace and converts string to Int
+      quantity = parseInt(quantity);
+
+      //gets price data removes extra letters/ whitespace and converts string to float
       let price = webPage(element)
         .find(".details p")
         .last()
         .text()
         .trim()
-        .slice(8)
-        price = parseFloat(price);
-      //pushes items it array as metadata object
-      product = { "product": product, "metadata": { "img_url": img_url, "quantity": quantity, "price": price }};
+        .slice(8);
 
-      products.push(product);
+      price = parseFloat(price);
+
+      //pushes items in array as metadata object
+      productObject = {
+        product: product,
+        metadata: { img_url: img_url, quantity: quantity, price: price },
+      };
+      //pushes new productsObject to products array
+      products.push(productObject);
 
     });
-    console.log(products)
     //converts data to Json file
     jsonfile.writeFile("data.json", products);
   }
